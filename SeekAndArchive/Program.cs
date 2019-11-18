@@ -16,6 +16,11 @@ namespace SeekAndArchive
         static void Main(string[] args)
         {
 
+
+            string searchedFile = Console.ReadLine();
+
+            args[0] = searchedFile;
+            args[1] = @"d:\teszt";
             string fileName = args[0];
             string directoryName = args[1];
 
